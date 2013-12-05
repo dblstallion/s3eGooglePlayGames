@@ -213,3 +213,8 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+# Misc
+stamp/
+build_*_android_java/
+build_*_android_linux_scons_arm/

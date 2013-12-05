@@ -688,7 +688,7 @@ public class GameHelper implements GooglePlayServicesClient.ConnectionCallbacks,
     }
 
     /** Sign out and disconnect from the APIs. */
-    void signOut() {
+    public void signOut() {
         debugLog("signOut");
         mConnectionResult = null;
         mAutoSignIn = false;
