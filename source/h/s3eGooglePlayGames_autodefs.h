@@ -11,4 +11,12 @@
 #define S3E_EXT_GOOGLEPLAYGAMES_NAME "s3eGooglePlayGames"
 #define S3E_EXT_GOOGLEPLAYGAMES_HASH 0xadbd9350
 
+#ifdef S3E_EXT_REGISTER
+#ifndef S3E_EXT_REGISTER_KEY
+#define S3E_EXT_REGISTER_KEY(name, num, key) S3E_EXT_REGISTER(name, num)
+#endif
+S3E_EXT_REGISTER("s3eGooglePlayGames", 11)
+#else
+
+#endif /* S3E_EXT_REGISTER */
 #endif /* !S3EGOOGLEPLAYGAMES_AUTODEFS_H */

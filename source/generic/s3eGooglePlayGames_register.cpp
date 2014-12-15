@@ -121,7 +121,7 @@ void s3eGooglePlayGamesRegisterExt()
     /*
      * Register the extension
      */
-    s3eEdkRegister("s3eGooglePlayGames", funcPtrs, sizeof(funcPtrs), flags, s3eGooglePlayGamesInit, s3eGooglePlayGamesTerminate, 0);
+s3eEdkRegister("s3eGooglePlayGames", funcPtrs, sizeof(funcPtrs), flags, s3eGooglePlayGamesInit, s3eGooglePlayGamesTerminate, 0);
 }
 
 #if !defined S3E_BUILD_S3ELOADER
